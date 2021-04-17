@@ -1,0 +1,17 @@
+#!name=Fake_Vip
+#!desc=破解
+
+[Script]
+#vsco
+http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ script-path= https://raw.githubusercontent.com/langkhach270389/Scripting/master/vsco.js
+
+
+#Termius 
+http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Terminus.js
+
+#PicsArt
+http-response ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/picsArt.vip.js
+
+
+[MITM]
+hostname = %APPEND% vsco.co,  api.termius.com, api.picsart.c*, 
