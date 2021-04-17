@@ -12,6 +12,7 @@ http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ script-path=
 #PicsArt
 http-response ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/picsArt.vip.js
 
-
+#Emby解锁vip
+http-response ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embycrack.js 
 [MITM]
 hostname = %APPEND% vsco.co,  api.termius.com, api.picsart.c*, 
