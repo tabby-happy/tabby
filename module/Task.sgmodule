@@ -1,0 +1,14 @@
+#!name=𝙏𝙖𝙨𝙠✨
+#!desc=Task定时 • 签到脚本、无主机名；
+#!system=ios
+
+
+[Script]
+威锋论坛 = type=cron,cronexp=0 2 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js,script-update-interval=0
+汽车兑换 = type=cron,cronexp=0,5,10 0 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_car_exchange.js
+超市兑换 = type=cron,cronexp=0 0 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/blueCoin.js
+汪汪兑换 = type=cron,cronexp=0 0-16/8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_joy_reward.js
+财富提现 = type=cron,cronexp=0 0 0 * * *,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/cfd.js
+//京东删券 = type=cron,cronexp=0 11 0 30 * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js
+
+✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨ = type=http-request,pattern=分割线,script-path=Script/分割线.js
