@@ -28,5 +28,24 @@ systemctl enable docker.service
 #下载docker-compose
 sudo curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
+sudo curl -L https://get.daocloud.io/docker/compose/releases/download/1.25.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
 添加可执行权限 
 sudo chmod +x /usr/local/bin/docker-compose
+
+查看等级
+docker-compose --version
+
+
+
+1、更新Yum软件包
+yum update
+
+2、安装Docker
+curl -sSL https://get.daocloud.io/docker | sh
+
+3、添加Docker仓库
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+4、启动Docker
+sudo systemctl start docker
