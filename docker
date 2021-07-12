@@ -49,3 +49,14 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 
 4、启动Docker
 sudo systemctl start docker
+
+
+
+
+docker exec -it qinglong bash
+
+cd /ql/scripts
+
+npm install axios
+
+npm install date-fns
