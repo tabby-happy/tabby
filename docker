@@ -60,3 +60,5 @@ cd /ql/scripts
 npm install axios
 
 npm install date-fns
+
+npm install -g typescript
