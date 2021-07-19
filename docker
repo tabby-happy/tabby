@@ -1,3 +1,17 @@
+ps -ajx|grep JDC
+##查看原程序PID,第一行第二列为程序的PID
+kill -9 *****
+##结束程序（*****改为你的PID）
+##结束后无任何提示，不放心再输入一下，会提示无此进程。
+rm -rf JDC config.toml
+##删除配置文件和JDC主程序
+##不放心进入安装目录检查一下，顺便把public文件夹也清空。
+chmod 777 JDC
+./JDC
+nohup ./JDC &
+
+
+
 # 安装依赖包
 $ sudo yum install -y yum-utils
 
