@@ -1,0 +1,33 @@
+【passerby-b】滴滴农场	ql repo https://github.com/passerby-b/didi_fruit.git "dd_"	30 14 */2 * *
+【Tsukasa007库】	ql repo https://github.com/Tsukasa007/my_script.git "jd_" "" "" "master"	40 11 * * *
+【moposmall】 惊喜m牧场	ql repo https://github.com/moposmall/Script.git "jx_mc"	2 1-23/4 * * *	空闲中	
+
+【柠檬（胖虎）】	ql repo https://github.com/panghu999/panghu.git "jd_"	4 7-23/4 * * *	空闲中	
+
+【温某某】	ql repo https://github.com/Wenmoux/scripts.git "other|jd" "" "" "wen"	40 22 * * *	空闲中	
+
+【passerby-b】【京东到家】	ql repo https://github.com/passerby-b/JDDJ.git "jddj_|jd_" "scf_test_event|jddj_fruit_code.js|jddj_getck.js|jd_|jddj_cookie"	8 1-23/4 * * *	空闲中	
+
+【star261仓库】	ql repo https://github.com/star261/jd.git "jd_|star" "" "MovementFaker"	17 1-23/4 * * *	空闲中	
+
+【龙珠】	ql repo https://github.com/longzhuzhu/nianyu.git "qx" "main"	1 1-23/4 * * *	空闲中	
+
+【JDHelloWorld仓库 】	ql repo https://github.com/JDHelloWorld/jd_scripts.git "jd_|jx_|getJDCookie" "activity|backUp|Coupon|enen|update" "^jd[^_]|USER"	7 1-23/4 * * *
+
+【chiupam仓库(京喜工厂瓜分电力开团ID) 】	ql repo https://github.com/chiupam/JD_Diy.git "activeId"	16 1-23/4 * * *	空闲中	
+
+【smiek2221仓库 】	ql repo https://github.com/smiek2221/scripts.git "jd_|gua_" "" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js"	15 1-23/4 * * *	空闲中	
+
+【cdle仓库 】	ql repo https://github.com/cdle/jd_study.git "jd_"	14 1-23/4 * * *	空闲中	
+
+【curtinlv仓库 】	ql repo https://github.com/curtinlv/JD-Script.git "jd_"	13 1-23/4 * * *	空闲中	
+
+【jiulan仓库】	ql repo https://github.com/jiulan/platypus.git "jd_|jx_"	6 1-23/4 * * *
+
+【混沌】	ql repo https://github.com/whyour/hundun.git "quxxxxx" "tokens|caiyun|didi|donate|fold|Env"	20 22 */2 * *
+
+【passby 快手果园】	ql repo https://github.com/passerby-b/ks_fruit.git	27 0-22/5 * * *
+
+【送豆的豆单文件】	ql raw https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_sendBeans.js	30 14 */2 * *
+
+【Aaron-lv 拉裤】	ql repo https://github.com/Aaron-lv/sync.git "jd_cfd" "" "" "jd_scripts"	45 */6 * * *
