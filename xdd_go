@@ -1,7 +1,7 @@
 如果/usr/local下有go文件
 
 rm -rf /usr/local/go  删干净，
-
+go env -w
 
 安装包下载地址为：https://golang.org/dl/
 
