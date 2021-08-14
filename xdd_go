@@ -26,7 +26,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 esc :wq 保存文件后 source /etc/profile
 
 
-第五步，拉库 cd ~ && git clone https://github.com/cdle/jd_study.git
+第五步，拉库 cd ~ && git clone https://ghproxy.com/https://github.com/cdle/jd_study.git
 
 第六步，编译 cd jd_study/xdd && go build
 
