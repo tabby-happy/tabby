@@ -1,3 +1,20 @@
+
+ps -ajx|grep xdd_linux_amd64
+##查看原程序PID,第一行第二列为程序的PID
+kill -9 *****
+##结束程序（*****改为你的PID）
+##结束后无任何提示，不放心再输入一下，会提示无此进程。
+rm -rf xdd_linux_amd64
+##删除配置文件和JDC主程序
+##不放心进入安装目录检查一下，顺便把public文件夹也清空。
+chmod 777 xdd_linux_amd64
+./xdd_linux_amd64
+nohup ./xdd_linux_amd64 &
+
+
+
+
+
 如果/usr/local下有go文件
 
 rm -rf /usr/local/go  删干净，
@@ -26,7 +43,9 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 esc :wq 保存文件后 source /etc/profile
 
 
-第五步，拉库 cd ~ && git clone https://ghproxy.com/https://github.com/cdle/jd_study.git
+第五步，拉库 cd ~ e&& git clone https://ghproxy.com/https://github.com/cdle/jd_study.git
+
+rm -rf jd_study && git clon https://ghproxy.com/https://github.com/cdle/jd_study.git
 
 第六步，编译 cd jd_study/xdd && go build
 
