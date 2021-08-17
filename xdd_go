@@ -47,6 +47,6 @@ esc :wq 保存文件后 source /etc/profile
 
 rm -rf xdd && git clone https://ghproxy.com/https://github.com/cdle/xdd.git
 
-第六步，编译 cd jd_study/xdd && go build
+第六步，编译 cd /xdd && go build
 
 第七步，运行 ./xdd
