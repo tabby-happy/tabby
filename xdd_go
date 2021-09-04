@@ -45,6 +45,8 @@ esc :wq 保存文件后 source /etc/profile
 
 第五步，拉库 cd ~ e&& git clone https://ghproxy.com/https://github.com/cdle/jd_study.git
 
+cd ~ e&& git clone https://ghproxy.com/https://github.com/cdle/sillyGirl.git
+
 rm -rf xdd && git clone https://ghproxy.com/https://github.com/cdle/xdd.git
 
 第六步，编译 cd xdd && go build
