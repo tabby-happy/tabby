@@ -47,6 +47,9 @@ esc :wq 保存文件后 source /etc/profile
 
 cd ~ e&& git clone https://ghproxy.com/https://github.com/cdle/sillyGirl.git
 
+cd /root/sillyGirl/develop e&& git clone https://ghproxy.com/https://github.com/ufuckee/jd_cookie.git
+
+
 rm -rf xdd && git clone https://ghproxy.com/https://github.com/cdle/xdd.git
 
 第六步，编译 cd xdd && go build
