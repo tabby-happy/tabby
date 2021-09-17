@@ -12,7 +12,7 @@ chmod 777 xdd_linux_amd64
 nohup ./xdd_linux_amd64 &
 
 
-
+/volume1/docker/sillyGirl/develop
 
 
 如果/usr/local下有go文件
@@ -25,11 +25,15 @@ go env -w
 如果打不开可以使用这个地址：https://golang.google.cn/dl/
 
 第二步， 
-cd /usr/local && wget https://golang.google.cn/dl/go1.16.7.linux-amd64.tar.gz -O go1.16.7.linux-amd64.tar.gz
+cd /usr/local && wget https://golang.google.cn/dl/go1.17.1.linux-amd64.tar.gz -O go1.17.1.linux-amd64.tar.gz
+go1.17.1.linux-amd64.tar.gz
+
+https://studygolang.com/dl/golang/go1.17.1.linux-amd64.tar.gz
 
 
 第三步，解压 
-tar -xvzf go1.16.7.linux-amd64.tar.gz
+tar -xvzf go1.17.1.linux-amd64.tar.gz
+go1.16.7.linux-amd64.tar.gz
 
 
 第四步，设置环境变量 vi /etc/profile ,将红框内文本复制到最后一行。 
