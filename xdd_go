@@ -30,6 +30,8 @@ go1.17.1.linux-amd64.tar.gz
 
 https://studygolang.com/dl/golang/go1.17.1.linux-amd64.tar.gz
 
+cd /usr/local && wget https://studygolang.com/dl/golang/go1.17.1.linux-amd64.tar.gz -O go1.17.1.linux-amd64.tar.gz
+
 
 第三步，解压 
 tar -xvzf go1.17.1.linux-amd64.tar.gz
