@@ -1,5 +1,5 @@
 
-
+apt-get update
 
 第一步 安装docker，docker-compose。
 
